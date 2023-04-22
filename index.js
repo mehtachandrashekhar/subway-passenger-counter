@@ -10,10 +10,13 @@ function increment(){
 
 function reset(){
     count=0;
-    document.getElementById("count-el").innerHTML=count;
+    saveEl.innerHTML = "Previous Entries :"+0;
+    countEl.innerHTML=count;
+
 }
 
+let saveEl = document.getElementById("save-el")
 function save(){
-    
+    saveEl.textContent += count + " - ";
 }
-console.log(count);
+// console.log(count);
