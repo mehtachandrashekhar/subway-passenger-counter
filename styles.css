@@ -11,6 +11,30 @@ button{
     margin: auto;
     margin-top: 20px;
 }
+
+#reset-btn{
+    text-decoration: none;
+    background-color: red;
+    height: 50px;
+    width: 180px;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight:bold;
+    
+       
+}
+
+#save-btn{
+    text-decoration: none;
+    background-color: blueviolet;
+    height: 50px;
+    width: 180px;
+    color: aliceblue;
+    border-radius: 5px;
+    border-radius: 5px;
+    font-weight:bold;
+
+}
 #Increment-btn{
     background-color: brown;
     height: 50px;
@@ -18,7 +42,10 @@ button{
     color: aliceblue;
     border-radius: 5px;
     box-shadow:none ;
+    border-radius: 5px;
+    font-weight:bold;
 }
+
 p{
     text-align: center;
 }
