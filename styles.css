@@ -1,11 +1,22 @@
 body{
     background: url(victor-rodriguez-IiLFMkqiFrM-unsplash.jpg) no-repeat;
     box-sizing: border-box;
+    margin: 0;
 }
 h1,h2{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+    font-style: italic;
+    width: 100%;
+    margin-top: 0;
+    background-color:rgba(60, 243, 206, 0.8);
+
+}
+
 button{
     display: block;
     margin: auto;
@@ -19,9 +30,17 @@ button{
     width: 180px;
     color: aliceblue;
     border-radius: 5px;
-    font-weight:bold;
-    
+    font-weight:bold;    
        
+}
+
+#count-el{
+    color: azure;
+    font-size: xx-large;
+}
+#save-el{
+color: azure;
+font-size: x-large;    
 }
 
 #save-btn{
