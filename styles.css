@@ -1,5 +1,5 @@
 body{
-    background: url(victor-rodriguez-IiLFMkqiFrM-unsplash.jpg);
+    background: url(victor-rodriguez-IiLFMkqiFrM-unsplash.jpg) no-repeat;
     box-sizing: border-box;
 }
 h1,h2{
@@ -10,6 +10,14 @@ button{
     display: block;
     margin: auto;
     margin-top: 20px;
+}
+#Increment-btn{
+    background-color: brown;
+    height: 50px;
+    width: 180px;
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow:none ;
 }
 p{
     text-align: center;

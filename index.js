@@ -10,7 +10,7 @@ function increment(){
 
 function reset(){
     count=0;
-    saveEl.innerHTML = "Previous Entries :"+0;
+    saveEl.innerHTML = "Previous Entries :" ;
     countEl.innerHTML=count;
 
 }
